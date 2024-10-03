@@ -26,7 +26,7 @@ const Hero = () => {
           Create stunning portfolios and websites with Airfolio's UI/UX design
           and Webflow development services.
         </p>
-        <div className="space-x-4 mt-4">
+        <div className="flex justify-center items-center space-x-4 mt-4 lg:justify-start">
           {/* Hire Me Button */}
           <button className="inline-flex items-center px-6 py-2 border border-transparent text-sm shadow-md font-medium rounded-md shadow-gray-500 text-white bg-primary1 hover:bg-transparent cursor-pointer hover:text-primary1 hover:ring-2 hover:ring-primary1">
             <a href="#">Hire me</a>
