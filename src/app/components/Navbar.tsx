@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { FiMenu, FiX } from "react-icons/fi";
 
 const Navbar = () => {
@@ -16,13 +15,6 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link href="/">
               <div className="flex items-center cursor-pointer">
-                {/* <Image
-                  src="/logo.png" // Replace with your logo path
-                  alt="Logo"
-                  width={40}
-                  height={40}
-                  priority={true}
-                /> */}
                 <span className="ml-2 text-2xl font-bold text-gray-900">
                   MyLogo
                 </span>
@@ -32,22 +24,22 @@ const Navbar = () => {
 
           {/* Navigation Links for larger screens */}
           <nav className="hidden md:flex space-x-8 font-semibold">
-            <Link href="#about" className="text-gray-600 hover:text-primary1 ">
+            <Link href="#about" className="text-gray-900 hover:text-primary1 ">
               About Us
             </Link>
             <Link
               href="#services"
-              className="text-gray-600 hover:text-gray-900"
+              className="text-gray-900 hover:text-primary1 "
             >
               Services
             </Link>
             <Link
               href="#projects"
-              className="text-gray-600 hover:text-gray-900"
+              className="text-gray-900 hover:text-primary1"
             >
               Projects
             </Link>
-            <Link href="#blogs" className="text-gray-600 hover:text-gray-900">
+            <Link href="#blogs" className="text-gray-900 hover:text-primary1">
               Blogs
             </Link>
           </nav>
@@ -83,7 +75,7 @@ const Navbar = () => {
           {/* Each link has its own animation */}
           <Link href="#about">
             <div
-              className={`block text-gray-600 hover:text-gray-900 transform transition duration-700 ${
+              className={`block text-gray-900 hover:text-primary1 transform transition duration-700 ${
                 menuOpen ? "translate-x-0" : "-translate-x-full"
               }`}
             >
@@ -92,7 +84,7 @@ const Navbar = () => {
           </Link>
           <Link href="#services">
             <div
-              className={`block text-gray-600 hover:text-gray-900 transform transition duration-700 ${
+              className={`block text-gray-900 hover:text-primary1 transform transition duration-700 ${
                 menuOpen ? "translate-x-0" : "translate-x-full"
               }`}
             >
@@ -101,7 +93,7 @@ const Navbar = () => {
           </Link>
           <Link href="#projects">
             <div
-              className={`block text-gray-600 hover:text-gray-900 transform transition duration-700 ${
+              className={`block text-gray-900 hover:text-primary1 transform transition duration-700 ${
                 menuOpen ? "-translate-x-0" : "-translate-x-full"
               }`}
             >
@@ -110,7 +102,7 @@ const Navbar = () => {
           </Link>
           <Link href="#blogs">
             <div
-              className={`block text-gray-600 hover:text-gray-900 transform transition duration-700 ${
+              className={`block text-gray-900 hover:text-primary1 transform transition duration-700 ${
                 menuOpen ? "translate-x-0" : "translate-x-full"
               }`}
             >
