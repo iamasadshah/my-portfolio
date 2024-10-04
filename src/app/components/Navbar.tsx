@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { FiMenu, FiX } from "react-icons/fi";
+import { RiMenu3Fill } from "react-icons/ri";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -59,7 +60,7 @@ const Navbar = () => {
               className="text-gray-900 focus:outline-none"
               onClick={() => setMenuOpen(!menuOpen)} // Toggle menu state
             >
-              {menuOpen ? <FiX size={28} /> : <FiMenu size={28} />}
+              {menuOpen ? <FiX size={28} /> : <RiMenu3Fill size={28} />}
             </button>
           </div>
         </div>
