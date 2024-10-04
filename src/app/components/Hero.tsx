@@ -4,20 +4,26 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="mt-20 lg:flex lg:pr-6">
+    <div className=" lg:flex lg:pr-6">
       {/* Image Section */}
-      <div className="Image-Div bg-[#FFECE3] lg:flex lg:basis-[60%] justify-center items-center pb-32 px-32 rounded-full aspect-square relative order-first lg:order-last">
+      <div className="Image-Div flex mt-14 lg:mt-20 lg:flex lg:basis-[60%] justify-center items-center pb-32 px-32 aspect-square relative order-first lg:order-last">
         <Image
           src="/iamasadshah.png"
           height={200}
           width={200}
           alt="Hero-Image"
-          className="absolute inset-0 -mt-14 object-cover w-full h-full"
+          className="absolute inset-0 object-cover w-full h-full z-10"
+        />
+        {/* #set image as background of this div */}
+        <img
+          src="/background.png"
+          alt="Hero-Image"
+          className="absolute lg:-ml-20 z-0 object-cover lg:w-[650px]"
         />
       </div>
 
       {/* Text Section */}
-      <div className="text-Div md:pl-14 px-4 mt-20 leading-[3.5rem]">
+      <div className="text-Div mt-0 md:pl-14 px-4 lg:mt-40 leading-[3.5rem]">
         <p className="text-xl">Hello, My Name is Asad Shah.</p>
         <h1 className="text-[35px] md:text-[45px] font-semibold leading-10 md:leading-[3.5rem]">
           Showcase Your Work with Airfolio's Creative Solutions
