@@ -9,12 +9,12 @@ const Hero = () => {
       <div className="Image-Div flex mt-14 lg:mt-20 lg:flex lg:basis-[60%] justify-center items-center pb-32 px-32 aspect-square relative order-first lg:order-last">
         <Image
           src="/iamasadshah.png"
-          height={200}
-          width={200}
+          height={600}
+          width={600}
           alt="Hero-Image"
-          className="absolute inset-0 object-cover w-full h-full z-10"
+          className="absolute  object-cover w-full h-full z-10"
         />
-        {/* #set image as background of this div */}
+        {/* #set image as background */}
         <img
           src="/background.png"
           alt="Hero-Image"
