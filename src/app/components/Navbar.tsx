@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <header className="bg-white">
       {/* Navbar container */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="flex justify-between items-center py-6">
           {/* Logo Section */}
           <div className="flex-shrink-0">
@@ -55,7 +55,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="md:hidden ">
             <button
               className="text-gray-900 focus:outline-none"
               onClick={() => setMenuOpen(!menuOpen)} // Toggle menu state
