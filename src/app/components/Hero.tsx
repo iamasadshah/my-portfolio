@@ -8,11 +8,11 @@ const Hero = () => {
       <div className="Image-Div flex flex-col justify-center items-center px-4 relative h-[50vh] lg:h-full lg:basis-[60%] order-first lg:order-last">
         {/* Particle Two (Floating Animation) */}
         <Image
-          src={"/particle-two.png"}
-          alt="particle-two"
+          src={"/particle-one.png"}
+          alt="particle-one"
           width={300}
           height={300}
-          className="h-24 w-24 hidden lg:block -mb-20 -ml-[600px] animate-pulse"
+          className="h-24 w-24 hidden lg:block lg:-mb-20 -ml-[600px] animate-spin-slow"
         />
 
         {/* Hero Image */}
@@ -21,7 +21,7 @@ const Hero = () => {
           alt="Hero-Image"
           height={400}
           width={400}
-          className="object-contain z-10 w-[250px] h-[550px] sm:w-[350px] sm:h-[350px] md:w-[450px] md:h-[650px] md:mt-10 lg:mt-0 lg:w-full lg:h-full"
+          className="object-contain mt-8 z-10 w-[250px] h-[550px] sm:w-[350px] sm:h-[350px] md:w-[450px] md:h-[650px] md:mt-24 lg:mt-0 lg:w-full lg:h-[550px]"
         />
 
         {/* Background Image */}
@@ -36,11 +36,11 @@ const Hero = () => {
       <div className="flex flex-col justify-center md:-mt-16 md:pl-14 px-4 h-[50vh] lg:h-full leading-[3.5rem]">
         {/* Particle One (Pulse Animation) */}
         <Image
-          src={"/particle-one.png"}
-          alt="particle-one"
+          src={"/particle-two.png"}
+          alt="particle-two"
           width={300}
           height={300}
-          className="h-24 w-24 hidden lg:block my-10 animate-spin-slow"
+          className="h-36 w-36 hidden lg:block animate-pulse"
         />
 
         <p className="text-xl">Hello, My Name is Asad Shah.</p>

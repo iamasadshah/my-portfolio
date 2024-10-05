@@ -11,13 +11,13 @@ const Navbar = () => {
     <header className="bg-white">
       {/* Navbar container */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
-        <div className="flex justify-between items-center py-6">
+        <div className="flex justify-between items-center py-4">
           {/* Logo Section */}
           <div className="flex-shrink-0">
             <Link href="/">
               <div className="flex items-center cursor-pointer">
-                <span className="ml-2 text-2xl font-bold text-gray-900">
-                  MyLogo
+                <span className="ml-2 text-4xl font-bold text-primary1">
+                  ibneRafi
                 </span>
               </div>
             </Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
           {/* Hire Me Button for larger screens */}
           <div className="hidden md:block">
             <Link href="#contact">
-              <div className="inline-flex items-center px-6 py-2 border border-transparent text-sm shadow-md font-medium rounded-md shadow-gray-500 text-white bg-primary1 hover:bg-transparent cursor-pointer hover:text-primary1 hover:ring-2 hover:ring-primary1 ">
+              <div className="inline-flex items-center px-6 py-2 border border-transparent text-sm shadow-sm font-medium rounded-md shadow-gray-500 text-white bg-primary1 hover:bg-transparent cursor-pointer hover:text-primary1 hover:ring-2 hover:ring-primary1 ">
                 Hire Me
               </div>
             </Link>
