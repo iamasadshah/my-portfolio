@@ -12,7 +12,7 @@ const Hero = () => {
           alt="particle-two"
           width={300}
           height={300}
-          className="h-24 w-24 hidden lg:block -mb-20 -ml-[600px] mt animate-pulse"
+          className="h-24 w-24 hidden lg:block -mb-20 -ml-[600px] animate-pulse"
         />
 
         {/* Hero Image */}
@@ -40,7 +40,7 @@ const Hero = () => {
           alt="particle-one"
           width={300}
           height={300}
-          className="h-24 w-24 hidden lg:block my-10 animate-spin"
+          className="h-24 w-24 hidden lg:block my-10 animate-spin-slow"
         />
 
         <p className="text-xl">Hello, My Name is Asad Shah.</p>
@@ -69,7 +69,7 @@ const Hero = () => {
             alt="particle-three"
             width={300}
             height={300}
-            className="h-24 w-24 hidden lg:block animate-bounce"
+            className="h-24 w-24 hidden lg:block animate-bounce-slow"
           />
         </div>
       </div>

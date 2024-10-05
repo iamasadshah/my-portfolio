@@ -24,7 +24,12 @@ const config: Config = {
         lg: '1024px',
         xl: '1280px',
         '2xl': '1536px',
-      }
+      },
+      animation: {
+        'spin-slow': 'spin 8s linear infinite',
+        'bounce-slow': 'bounce 3s infinite'
+
+      },
     },
   },
   plugins: [],
