@@ -45,11 +45,11 @@ const Hero = () => {
 
         <p className="text-xl">Hello, My Name is Asad Shah.</p>
         <h1 className="text-[35px] md:text-[45px] font-semibold leading-10 md:leading-[3.5rem]">
-          Showcase Your Work with Airfolio's Creative Solutions
+          Building websites that work smoothly and look great.
         </h1>
         <p className="text-sm md:text-base text-gray-600 lg:pr-52">
-          Create stunning portfolios and websites with Airfolio's UI/UX design
-          and Webflow development services.
+          A web app developer that transforms ideas into fast, user-friendly
+          apps designed to stand out.
         </p>
 
         <div className="flex justify-center items-center space-x-4 mt-4 lg:justify-start">
