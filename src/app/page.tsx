@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <hr className="border-t-8 border-gray-300" />
       <Services />
     </>
   );

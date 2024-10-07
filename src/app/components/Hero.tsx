@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="lg:flex lg:pr-6 h-screen Hero-container bg-slate-100 relative overflow-hidden md:h-[950px] lg:h-screen">
+    <div className="lg:flex lg:pr-6 h-screen Hero-container bg-slate-100 relative overflow-hidden md:h-[1050px] lg:h-screen">
       {/* Image Section */}
       <div className="Image-Div flex flex-col justify-center items-center px-4 relative h-[50vh] lg:h-full lg:basis-[60%] order-first lg:order-last">
         {/* Particle Two (Floating Animation) */}
@@ -21,7 +21,7 @@ const Hero = () => {
           alt="Hero-Image"
           height={400}
           width={400}
-          className="object-contain mt-8 z-10 w-[250px] h-[550px] sm:w-[350px] sm:h-[350px] md:w-[450px] md:h-[650px] md:mt-24 lg:mt-0 lg:w-full lg:h-[550px]"
+          className="object-contain mt-8 z-10 w-[250px] h-[550px] sm:w-[350px] sm:h-[350px] md:w-[450px] md:h-[650px] md:mt-24 lg:mt-0 lg:w-full lg:h-[550px] lg:-mb-7"
         />
 
         {/* Background Image */}
