@@ -18,8 +18,8 @@ const Services = () => {
           />
           <h3 className="service-heading">UI/UX Design</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sequi
-            non ipsam unde laborum aliquid sint quam officia ipsum saepe?
+            Ensuring websites and apps work smoothly on all devices, including
+            mobile, tablets, and desktops, with optimized user interfaces.
           </p>
         </Card>
         <Card className="services-card">
@@ -32,8 +32,8 @@ const Services = () => {
           />
           <h3 className="service-heading">Frontend Development</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sequi
-            non ipsam unde laborum aliquid sint quam officia ipsum saepe?
+            Building responsive and interactive websites using HTML, CSS,
+            JavaScript, and modern frameworks like React, Next.js.
           </p>
         </Card>
         <Card className="services-card">
@@ -46,8 +46,8 @@ const Services = () => {
           />
           <h3 className="service-heading">Single Page Applications (SPAs)</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sequi
-            non ipsam unde laborum aliquid sint quam officia ipsum saepe?
+            Developing fast, dynamic SPAs using frameworks like React or Nextjs
+            that provide seamless user experiences without reloading pages.
           </p>
         </Card>
         <Card className="services-card">
@@ -60,8 +60,9 @@ const Services = () => {
           />
           <h3 className="service-heading">SEO Optimization</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sequi
-            non ipsam unde laborum aliquid sint quam officia ipsum saepe?
+            Implementing best practices in frontend code for better search
+            engine rankings, such as optimizing metadata, improving site speed,
+            and making sites crawl-friendly
           </p>
         </Card>
       </div>
