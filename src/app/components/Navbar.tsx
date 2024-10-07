@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import { FiMenu, FiX } from "react-icons/fi";
+import { FiX } from "react-icons/fi";
 import { RiMenu3Fill } from "react-icons/ri";
 
 const Navbar = () => {
@@ -17,7 +17,7 @@ const Navbar = () => {
             <Link href="/">
               <div className="flex items-center cursor-pointer">
                 <span className="ml-2 text-4xl font-bold text-primary1">
-                  ibneRafi
+                  ibneRafi.
                 </span>
               </div>
             </Link>

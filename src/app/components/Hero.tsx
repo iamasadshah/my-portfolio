@@ -25,9 +25,11 @@ const Hero = () => {
         />
 
         {/* Background Image */}
-        <img
+        <Image
           src="/background.png"
           alt="Background-Image"
+          width={1000}
+          height={1000}
           className="absolute z-0 object-contain w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] md:w-[450px] md:h-[450px] lg:w-full lg:h-full"
         />
       </div>

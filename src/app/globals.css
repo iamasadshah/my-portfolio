@@ -82,7 +82,7 @@ html::-webkit-scrollbar {
     @apply flex flex-col justify-center items-center py-4 space-y-2 px-4 text-center ring-1 ring-gray-600 hover:shadow-lg hover:shadow-black;
   }
   .service-heading {
-    @apply text-xl font-bold;
+    @apply text-xl font-bold lg:text-2xl;
   }
   .service-image {
     @apply animate-pulse;
