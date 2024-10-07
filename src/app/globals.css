@@ -79,9 +79,12 @@ html::-webkit-scrollbar {
 
 @layer components {
   .services-card {
-    @apply flex flex-col justify-center items-center py-4 space-y-2 px-4 text-center ring-1 ring-gray-600;
+    @apply flex flex-col justify-center items-center py-4 space-y-2 px-4 text-center ring-1 ring-gray-600 hover:shadow-lg hover:shadow-black;
   }
   .service-heading {
     @apply text-xl font-bold;
+  }
+  .service-image {
+    @apply animate-pulse;
   }
 }

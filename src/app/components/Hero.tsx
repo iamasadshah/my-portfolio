@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="lg:flex lg:pr-6 h-screen Hero-container bg-slate-100 relative overflow-hidden">
+    <div className="lg:flex lg:pr-6 h-screen Hero-container bg-slate-100 relative overflow-hidden md:h-[950px] lg:h-screen">
       {/* Image Section */}
       <div className="Image-Div flex flex-col justify-center items-center px-4 relative h-[50vh] lg:h-full lg:basis-[60%] order-first lg:order-last">
         {/* Particle Two (Floating Animation) */}
