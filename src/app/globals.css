@@ -87,8 +87,11 @@ html::-webkit-scrollbar {
   .service-image {
     @apply animate-pulse;
   }
+  .About {
+    @apply flex flex-col justify-center items-center lg:grid lg:grid-cols-2 lg:items-start;
+  }
   .card-div {
-    @apply flex flex-col space-y-4;
+    @apply flex flex-col space-y-4 lg:flex-row lg:space-y-0 lg:space-x-4;
   }
   .cards {
     @apply rounded-lg py-2 px-4 shadow-md shadow-primary1;
