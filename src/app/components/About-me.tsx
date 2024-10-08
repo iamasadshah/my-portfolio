@@ -14,13 +14,14 @@ const About = () => {
       </div>
       <div className="text-div text-center py-4 flex flex-col space-y-2 lg:items-start lg:text-start lg:space-y-6">
         <p className="text-xl font-semibold">About me</p>
-        <h3 className="text-2xl">
+        <h3 className="text-2xl lg:text-4xl">
           Who is responsible for all of this impressive effort?
         </h3>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-          deserunt quia inventore ea blanditiis quas harum fugiat nemo iure
-          ullam.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae,
+          sit? Perferendis eveniet consectetur dicta alias ipsam dignissimos
+          error illum dolor iure ducimus numquam nihil cumque a, unde ipsa
+          voluptates enim similique repellat. Nisi, veritatis ipsam?
         </p>
         <div className="card-div text-primary1">
           <div className=" cards">
