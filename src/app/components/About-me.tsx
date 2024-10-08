@@ -12,7 +12,7 @@ const About = () => {
           className="rounded-xl"
         />
       </div>
-      <div className="text-div text-center py-4">
+      <div className="text-div text-center py-4 flex flex-col space-y-2">
         <p className="text-xl font-semibold">About me</p>
         <h3 className="text-2xl">
           Who is responsible for all of this impressive effort?
