@@ -4,8 +4,11 @@ import Image from "next/image";
 const Services = () => {
   return (
     <div
-      className="py-4 bg-slate-100 h-screen justify-center items-center lg:space-y-12"
+      className="py-4 bg-slate-100 h-screen justify-center items-center lg:space-y-12 bg-cover bg-center bg-no-repeat"
       id="#services"
+      style={{
+        backgroundImage: "url('/ply-bg.svg')", // Replace with your image path
+      }}
     >
       <h1 className="text-3xl font-semibold text-center px-4">
         Take a look at the variety of services I offer.
