@@ -3,11 +3,14 @@ import React from "react";
 import Image from "next/image";
 const Services = () => {
   return (
-    <div className="py-4 bg-slate-100" id="#services">
+    <div
+      className="py-4 bg-slate-100 h-screen justify-center items-center "
+      id="#services"
+    >
       <h1 className="text-3xl font-semibold text-center px-4">
         Take a look at the variety of services I offer.
       </h1>
-      <div className="grid grid-cols-1 px-6 gap-4 mt-4 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
+      <div className="grid grid-cols-1 px-6 gap-4 mt-4 md:grid-cols-2 lg:grid-cols-4 lg:px-8 ">
         <Card className="services-card">
           <Image
             alt="image"
