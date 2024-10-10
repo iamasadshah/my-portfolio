@@ -4,7 +4,7 @@ import Image from "next/image";
 const Services = () => {
   return (
     <div
-      className="py-4 bg-slate-100 h-screen justify-center items-center "
+      className="py-4 bg-slate-100 h-screen justify-center items-center lg:space-y-12"
       id="#services"
     >
       <h1 className="text-3xl font-semibold text-center px-4">
