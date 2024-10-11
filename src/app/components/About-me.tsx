@@ -2,7 +2,12 @@ import React from "react";
 import Image from "next/image";
 const About = () => {
   return (
-    <div className="py-6 px-10 About">
+    <div
+      className="py-6 px-10 About"
+      style={{
+        backgroundImage: "url('/about-bg.svg')", // Replace with your image path
+      }}
+    >
       <div className="about-me-image">
         <Image
           src={"/asadshah.jpg"}
