@@ -7,11 +7,11 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <hr className="border-t-8 border-gray-300" />
+
       <Services />
-      <hr className="border-t-8 border-gray-300" />
+
       <About />
-      <hr className="border-t-8 border-gray-300" />
+
       <Projects />
     </>
   );
