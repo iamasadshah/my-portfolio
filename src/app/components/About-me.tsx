@@ -5,7 +5,7 @@ const About = () => {
     <div
       className="py-6 px-10 About"
       style={{
-        backgroundImage: "url('/about-bg.svg')", // Replace with your image path
+        backgroundImage: "url('/second-bg.svg')", // Replace with your image path
       }}
     >
       <div className="about-me-image">
