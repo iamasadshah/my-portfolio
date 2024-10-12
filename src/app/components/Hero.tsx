@@ -12,7 +12,7 @@ const Hero = () => {
           alt="particle-one"
           width={300}
           height={300}
-          className="h-24 w-24 hidden lg:block lg:-mb-20 -ml-[600px] animate-spin-slow"
+          className="h-20 w-20 hidden lg:block lg:-mb-20 -ml-[400px] animate-spin-slow"
         />
 
         {/* Hero Image */}
@@ -21,7 +21,7 @@ const Hero = () => {
           alt="Hero-Image"
           height={400}
           width={400}
-          className="object-contain mt-8 z-10 w-[250px] h-[550px] sm:w-[350px] sm:h-[350px] md:w-[450px] md:h-[650px] md:mt-24 lg:mt-0 lg:w-full lg:h-[550px] lg:-mb-7"
+          className="object-contain mt-8 z-10 w-[200px] h-[300px] sm:w-[300px] sm:h-[400px] md:w-[400px] md:h-[600px] lg:w-full lg:h-[600px] lg:-mb-7"
         />
 
         {/* Background Image */}
@@ -35,21 +35,21 @@ const Hero = () => {
       </div>
 
       {/* Text Section */}
-      <div className="flex flex-col justify-center md:-mt-16 md:pl-14 px-4 h-[50vh] lg:h-full leading-[3.5rem]">
+      <div className="flex flex-col justify-center md:-mt-16 md:pl-14 px-4 h-[50vh] lg:h-full leading-[2.5rem] lg:leading-[3.5rem]">
         {/* Particle One (Pulse Animation) */}
         <Image
           src={"/particle-two.png"}
           alt="particle-two"
           width={300}
           height={300}
-          className="h-36 w-36 hidden lg:block animate-pulse"
+          className="h-28 w-28 hidden lg:block animate-pulse"
         />
 
-        <p className="text-xl">Hello, My Name is Asad Shah.</p>
-        <h1 className="text-[35px] md:text-[45px] font-semibold leading-10 md:leading-[3.5rem]">
+        <p className="text-lg sm:text-xl">Hello, My Name is Asad Shah.</p>
+        <h1 className="text-[30px] sm:text-[35px] md:text-[45px] font-semibold leading-9 sm:leading-10 md:leading-[3.5rem]">
           Building websites that work smoothly and look great.
         </h1>
-        <p className="text-sm md:text-base text-gray-600 lg:pr-52">
+        <p className="text-sm sm:text-base md:text-lg text-gray-600 lg:pr-52">
           A web app developer that transforms ideas into fast, user-friendly
           apps designed to stand out.
         </p>
@@ -71,7 +71,7 @@ const Hero = () => {
             alt="particle-three"
             width={300}
             height={300}
-            className="h-24 w-24 hidden lg:block animate-bounce-slow"
+            className="h-20 w-20 hidden lg:block animate-bounce-slow"
           />
         </div>
       </div>
