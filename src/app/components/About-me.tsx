@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -10,13 +11,13 @@ const About = () => {
       }}
     >
       {/* About Me Image */}
-      <div className="about-me-image flex justify-center lg:justify-start lg:w-[40%] lg:pr-8">
+      <div className="about-me-image flex justify-center lg:justify-start lg:w-full lg:pr-8">
         <Image
           src={"/asadshah.jpg"}
           alt="asad-shah"
           width={300}
           height={300}
-          className="rounded-xl"
+          className="rounded-xl lg:w-[65%]"
         />
       </div>
 
@@ -50,8 +51,8 @@ const About = () => {
         </div>
 
         {/* Button Section */}
-        <button className="flex items-center px-6 py-2 border border-transparent text-sm shadow-md font-medium rounded-md text-white bg-primary1 transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-500 hover:to-green-500 md:text-lg md:px-10 lg:px-7">
-          <a href="#">About me</a>
+        <button className="flex items-center px-6 py-2 justify-center text-center border border-transparent text-sm shadow-md font-medium rounded-md text-white bg-primary1 transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-blue-500 hover:to-green-500 md:text-lg md:px-10 lg:px-7">
+          <Link href="#">About me</Link>
         </button>
       </div>
     </div>
