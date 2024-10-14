@@ -10,15 +10,15 @@ import React from "react";
 const FAQs = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center h-screen bg-cover bg-center bg-no-repeat px-6 py-10"
+      className="flex flex-col  items-center justify-center h-screen bg-cover bg-center bg-no-repeat px-6  overflow-hidden"
       style={{
         backgroundImage: "url('/second-bg.svg')", // Replace with your image path
       }}
     >
-      <h1 className="text-4xl font-bold mb-4 text-center">
+      <h1 className="text-4xl font-bold text-center">
         Frequently Asked Questions
       </h1>
-      <p className="text-lg mb-8 text-center">
+      <p className="text-lg text-center">
         Find answers to commonly asked questions about developer and his
         Services.
       </p>
@@ -66,10 +66,8 @@ const FAQs = () => {
         </AccordionItem>
       </Accordion>
 
-      <div className="flex flex-col mb-12 mt-3 rounded-lg bg-primary2 justify-center items-center px-16 py-6">
-        <h1 className="text-2xl font-bold mb-4 text-center">
-          Still have Question?
-        </h1>
+      <div className="flex flex-col  rounded-lg bg-primary2 justify-center items-center px-16 py-6 ">
+        <h1 className="text-2xl font-bold text-center">Still have Question?</h1>
         <p className="text-lg mb-8 text-center">
           Contact us for more information.
         </p>
