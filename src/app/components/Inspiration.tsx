@@ -1,22 +1,45 @@
-import { Card } from "@/components/ui/card";
 import React from "react";
-import Image from "next/image";
 
-const Inspiration = () => {
+interface BlogCardProps {
+  imageSrc: string;
+  title: string;
+  description: string;
+  tags: string[];
+}
+
+const BlogCard: React.FC<BlogCardProps> = ({
+  imageSrc,
+  title,
+  description,
+  tags,
+}) => {
   return (
-    <div>
-      <p className="text-center ">Inspiration</p>
-      <h1 className="text-xl font-semibold text-center">What's in my Mind</h1>
-      <Card>
-        <Image
-          src={"/project-image.jpg"}
-          alt="image"
-          width={300}
-          height={300}
+    <div className="flex flex-col md:flex-row border rounded-lg overflow-hidden shadow-lg mb-4">
+      <div className="md:w-1/2">
+        <img
+          src={imageSrc}
+          alt={title}
+          className="w-full h-full object-cover"
         />
-      </Card>
+      </div>
+      <div className="md:w-1/2 p-4 flex flex-col justify-between">
+        <div>
+          <h2 className="text-xl font-bold mb-2">{title}</h2>
+          <p className="text-gray-700 mb-4">{description}</p>
+        </div>
+        <div className="flex flex-wrap">
+          {tags.map((tag, index) => (
+            <span
+              key={index}
+              className="bg-blue-500 text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
 
-export default Inspiration;
+export default BlogCard;

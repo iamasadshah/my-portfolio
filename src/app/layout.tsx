@@ -31,6 +31,11 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+          integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+        ></script>
+        <script type="text/javascript" src="cssanimation-gsap.js"></script>
       </body>
     </html>
   );
