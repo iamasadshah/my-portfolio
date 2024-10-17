@@ -35,7 +35,8 @@ const Projects = () => {
             Razer clone
           </h1>
           <p className="px-3 lg:px-6 text-sm lg:text-base">
-            I built a Razer clone using Next.js, Tailwind CSS, and ShadCN,
+            I built a Razer clone using{" "}
+            <b>Next.js, Tailwind CSS, and ShadCN,</b>
             replicating the design with responsive layouts and polished UI
             components for a smooth user experience.
           </p>
@@ -48,20 +49,25 @@ const Projects = () => {
         </Card>
         <Card className="project-card flex flex-col items-center text-center space-y-3 pb-3 lg:items-start lg:text-start">
           <Image
-            src={"/project-image.jpg"}
+            src={"/Dine-Market.webp"}
             alt="project one"
             width={300}
             height={300}
             className="w-full rounded-t-xl"
           />
           <h1 className="project-title text-lg lg:text-xl font-bold">
-            AirFlow X SaaS Website Template
+            Dine Market
           </h1>
           <p className="px-3 lg:px-6 text-sm lg:text-base">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque,
-            quam. Eaque earum quo consectetur corrupti.
+            I created a Dine Market project while learning at <b>PIAIC</b>,
+            using <b>Next.js, Tailwind CSS, ShadCN, Sanity, and PostgreSQL</b>.
+            It features a dynamic, responsive design with real-time content
+            management and a smooth user experience.
           </p>
-          <Link href={"/"} className="text-primary1 px-3 lg:px-6">
+          <Link
+            href={"https://piaic-q2-project.vercel.app"}
+            className="text-primary1 px-3 lg:px-6"
+          >
             View Project &rarr;
           </Link>
         </Card>
