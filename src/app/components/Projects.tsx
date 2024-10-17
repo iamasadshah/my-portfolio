@@ -59,7 +59,7 @@ const Projects = () => {
             Clock App
           </h1>
           <p className="px-3 lg:px-6 text-sm lg:text-base">
-            I created a Clock App project while learning at <b>React</b>, using{" "}
+            I created a Clock App project while learning at <b>React</b>, using
             <b>react.js, HTML5, CSS3, and JavaScript</b>. It features a dynamic,
             responsive design with real-time content.
           </p>
