@@ -45,8 +45,10 @@ const Hero = () => {
           className="h-28 w-28 hidden lg:block animate-pulse"
         />
 
-        <p className="text-lg sm:text-xl">Hello, My Name is Asad Shah.</p>
-        <h1 className="text-[30px] sm:text-[35px] md:text-[45px] font-semibold leading-9 sm:leading-10 md:leading-[3.5rem]">
+        <p className="text-lg sm:text-xl animate-typewriter">
+          Hello, My Name is Asad Shah.
+        </p>
+        <h1 className="text-[30px] sm:text-[35px] md:text-[45px] font-semibold leading-9 sm:leading-10 md:leading-[3.5rem] animate-zoom-in">
           Building websites that work smoothly and look great.
         </h1>
         <p className="text-sm sm:text-base md:text-lg text-gray-600 lg:pr-52">
@@ -56,12 +58,12 @@ const Hero = () => {
 
         <div className="flex justify-center items-center space-x-4 mt-4 lg:justify-start">
           {/* Hire Me Button */}
-          <button className="inline-flex items-center px-6 py-2 border border-transparent text-sm shadow-md font-medium rounded-md shadow-gray-500 text-white bg-primary1 hover:bg-transparent cursor-pointer transition-all duration-300 hover:text-primary1 hover:ring-2 hover:ring-primary1 md:text-lg md:px-10 lg:px-7">
+          <button className="inline-flex items-center px-6 py-2 border border-transparent text-sm shadow-md font-medium rounded-md shadow-gray-500 text-white bg-primary1 hover:bg-transparent cursor-pointer transition-all duration-300 hover:text-primary1 hover:ring-2 hover:ring-primary1 md:text-lg md:px-10 lg:px-7 animate-slide-left">
             <a href="#">Hire me</a>
           </button>
 
           {/* Portfolio Button */}
-          <button className="inline-flex items-center px-6 py-2 border border-transparent text-sm shadow-md font-medium rounded-md shadow-gray-500 text-primary1 bg-transparent hover:bg-primary1 cursor-pointer transition-all duration-300 hover:text-white ring-2 ring-primary1 md:text-lg md:px-10 lg:px-7">
+          <button className="inline-flex items-center px-6 py-2 border border-transparent text-sm shadow-md font-medium rounded-md shadow-gray-500 text-primary1 bg-transparent hover:bg-primary1 cursor-pointer transition-all duration-300 hover:text-white ring-2 ring-primary1 md:text-lg md:px-10 lg:px-7 animate-slide-right">
             <a href="#">Portfolio</a>
           </button>
 

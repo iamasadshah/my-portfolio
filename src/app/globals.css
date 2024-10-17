@@ -77,6 +77,72 @@ html::-webkit-scrollbar {
   }
 }
 
+/* title zoom in effext */
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.animate-zoom-in {
+  animation: zoomIn 2s ease-out forwards;
+}
+
+/* Typewriter effect */
+@keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* typewriter effect */
+.animate-typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: transparent;
+  animation:
+    typewriter 6s steps(40, end) forwards,
+    blink 0.75s step-end infinite;
+}
+
+/* Hero buttons effect */
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-left {
+  animation: slideInLeft 1.5s ease-out forwards;
+}
+
+/* Slide in Right effect */
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.animate-slide-right {
+  animation: slideInRight 1.5s ease-out forwards;
+}
+
 @layer components {
   .services-card {
     @apply flex flex-col justify-center items-center py-4 space-y-2 px-4 text-center ring-1 shadow-lg shadow-white ring-gray-600 hover:shadow-lg hover:shadow-black;

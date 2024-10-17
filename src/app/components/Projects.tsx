@@ -29,16 +29,16 @@ const Projects = () => {
             alt="project one"
             width={300}
             height={300}
-            className="w-full rounded-t-xl"
+            className="w-full rounded-t-xl transition-transform transform  hover:saturate-150 duration-300"
           />
           <h1 className="text-lg lg:text-xl font-bold project-title">
             Razer clone
           </h1>
           <p className="px-3 lg:px-6 text-sm lg:text-base">
             I built a Razer clone using{" "}
-            <b>Next.js, Tailwind CSS, and ShadCN,</b>
-            replicating the design with responsive layouts and polished UI
-            components for a smooth user experience.
+            <b>Next.js, Tailwind CSS, and ShadCN,</b> replicating the design
+            with responsive layouts and polished UI components for a smooth user
+            experience.
           </p>
           <Link
             href={"https://razer-clone-gold.vercel.app"}
@@ -47,19 +47,20 @@ const Projects = () => {
             View Project &rarr;
           </Link>
         </Card>
+
         <Card className="project-card flex flex-col items-center text-center space-y-3 pb-3 lg:items-start lg:text-start">
           <Image
             src={"/Real-time.webp"}
             alt="project one"
             width={300}
             height={300}
-            className="w-full rounded-t-xl"
+            className="w-full rounded-t-xl transition-transform transform  hover:saturate-150 duration-300"
           />
           <h1 className="project-title text-lg lg:text-xl font-bold">
             Clock App
           </h1>
           <p className="px-3 lg:px-6 text-sm lg:text-base">
-            I created a Clock App project while learning at <b>React</b>, using
+            I created a Clock App project while learning at <b>React</b>, using{" "}
             <b>react.js, HTML5, CSS3, and JavaScript</b>. It features a dynamic,
             responsive design with real-time content.
           </p>
@@ -70,13 +71,14 @@ const Projects = () => {
             View Project &rarr;
           </Link>
         </Card>
+
         <Card className="project-card flex flex-col items-center text-center space-y-3 pb-3 lg:items-start lg:text-start">
           <Image
             src={"/Dine-Market.webp"}
             alt="project one"
             width={300}
             height={300}
-            className="w-full rounded-t-xl"
+            className="w-full rounded-t-xl transition-transform transform  hover:saturate-150 duration-300"
           />
           <h1 className="project-title text-lg lg:text-xl font-bold">
             Dine Market
@@ -101,7 +103,7 @@ const Projects = () => {
             alt="project one"
             width={300}
             height={300}
-            className="w-full rounded-t-xl"
+            className="w-full rounded-t-xl transition-transform transform  hover:saturate-150 duration-300"
           />
           <h1 className="project-title text-lg lg:text-xl font-bold">
             To do App
@@ -109,7 +111,7 @@ const Projects = () => {
           <p className="px-3 lg:px-6 text-sm lg:text-base">
             I created a To-do App project while learning at <b>React</b>, using{" "}
             <b>react.js, HTML5, CSS3, and JavaScript</b>. It features a dynamic,
-            responsive design with real-time content
+            responsive design with real-time content.
           </p>
           <Link
             href={"https://todo-app-ebon-gamma.vercel.app/"}
@@ -118,8 +120,6 @@ const Projects = () => {
             View Project &rarr;
           </Link>
         </Card>
-
-        {/* Add more project cards as needed */}
       </div>
 
       <div className="flex justify-center items-center mt-8">

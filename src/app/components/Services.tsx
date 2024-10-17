@@ -77,11 +77,11 @@ const Services = () => {
       </div>
 
       <div className="flex justify-center items-center space-x-4 mt-8">
-        <button className="flex items-center px-6 py-2 border-2 border-transparent text-sm font-medium rounded-md text-white bg-primary1 transition-all duration-300 ease-in-out hover:border-primary1 hover:bg-transparent md:text-lg md:px-10 lg:px-7  hover:text-primary1">
+        <button className="flex items-center px-6 py-2 border-2 border-transparent text-sm font-medium rounded-md text-white bg-primary1 transition-all duration-300 ease-in-out hover:border-primary1 hover:bg-transparent md:text-lg md:px-10 lg:px-7  hover:text-primary1 animate-slide-left">
           <a href="#">Hire me</a>
         </button>
 
-        <button className="inline-flex items-center px-6 py-2 border border-transparent text-sm shadow-md font-medium rounded-md shadow-gray-500 text-primary1 bg-transparent hover:bg-primary1 cursor-pointer transition-all duration-300 hover:text-white ring-2 ring-primary1 md:text-lg md:px-10 lg:px-7">
+        <button className="inline-flex items-center px-6 py-2 border border-transparent text-sm shadow-md font-medium rounded-md shadow-gray-500 text-primary1 bg-transparent hover:bg-primary1 cursor-pointer transition-all duration-300 hover:text-white ring-2 ring-primary1 md:text-lg md:px-10 lg:px-7 animate-slide-right">
           <a href="#">Portfolio</a>
         </button>
       </div>
